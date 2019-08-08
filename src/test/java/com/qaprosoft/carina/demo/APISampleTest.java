@@ -16,6 +16,7 @@
 package com.qaprosoft.carina.demo;
 
 import org.skyscreamer.jsonassert.JSONCompareMode;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qaprosoft.apitools.validation.JsonCompareKeywords;
@@ -74,6 +75,7 @@ public class APISampleTest extends AbstractTest {
         deleteUserMethod.expectResponseStatus(HttpResponseStatusType.OK_200);
         deleteUserMethod.callAPI();
         deleteUserMethod.validateResponse();
+        Assert.fail("Русский текст для теста!");
     }
 
 }
