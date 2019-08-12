@@ -27,6 +27,7 @@ public class MobileSampleTest extends AbstractTest {
         WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
         Assert.assertTrue(welcomePage.isPageOpened(), "Welcome page isn't opened");
         LoginPageBase loginPage = welcomePage.clickNextBtn();
+        Assert.fail("test1");
     }
 
 	@Test()
@@ -48,6 +49,7 @@ public class MobileSampleTest extends AbstractTest {
     public void test4() {
         WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
         LoginPageBase loginPage = welcomePage.clickNextBtn();
+        Assert.fail("test4");
     }
     
     @Test()

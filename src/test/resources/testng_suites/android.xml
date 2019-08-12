@@ -30,43 +30,50 @@
 			<class name="com.qaprosoft.carina.demo.MobileSampleTest">
 				<methods>
 					<include name="test1" />
+					<include name="test2" />
 				</methods>
+			</class>
 		</classes>
 	</test>
 
-	<test name="Mobile test">
+	<test name="Mobile test2">
 		<classes>
 			<class name="com.qaprosoft.carina.demo.MobileSampleTest">
 				<methods>
 					<include name="test2" />
 				</methods>
+			</class>
 		</classes>
 	</test>
 
-	<test name="Mobile test">
+	<test name="Mobile test3">
 		<classes>
 			<class name="com.qaprosoft.carina.demo.MobileSampleTest">
 				<methods>
 					<include name="test3" />
+					<include name="test4" />
 				</methods>
+			</class>
 		</classes>
 	</test>
 
-	<test name="Mobile test">
+	<test name="Mobile test4">
 		<classes>
 			<class name="com.qaprosoft.carina.demo.MobileSampleTest">
 				<methods>
 					<include name="test4" />
 				</methods>
+			</class>
 		</classes>
 	</test>
 
-	<test name="Mobile test">
+	<test name="Mobile test5">
 		<classes>
 			<class name="com.qaprosoft.carina.demo.MobileSampleTest">
 				<methods>
 					<include name="test5" />
 				</methods>
+			</class>
 		</classes>
 	</test>
 
