@@ -59,4 +59,108 @@ public class MobileSampleTest extends AbstractTest {
         LoginPageBase loginPage = welcomePage.clickNextBtn();
     }
 
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test6() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test7() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test8() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test9() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test10() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test11() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test12() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test13() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test14() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test15() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test16() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test17() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test18() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test19() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
+    
+    @Test()
+    @MethodOwner(owner = "qpsdemo")
+    public void test20() {
+        WelcomePageBase welcomePage = initPage(getDriver(), WelcomePageBase.class);
+        LoginPageBase loginPage = welcomePage.clickNextBtn();
+    }
 }
