@@ -15,8 +15,13 @@
  */
 package com.qaprosoft.carina.demo;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
+import java.nio.charset.StandardCharsets;
 
 import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.testng.annotations.Test;
@@ -69,7 +74,13 @@ public class APISampleTest extends AbstractTest {
         getUsersMethods.validateResponse(JSONCompareMode.STRICT, JsonCompareKeywords.ARRAY_CONTAINS.getKey());
         getUsersMethods.validateResponseAgainstJSONSchema("api/users/_get/rs.schema");
         
-        File file = new File("api/users/_get/rs.schema");
+        try (Writer writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("myFile.txt"), StandardCharsets.UTF_8))) {
+            writer.write("text to write");
+        } 
+        catch (IOException ex) {
+            // Handle me
+        } 
+        File file = new File("myFile.txt");
         ReportContext.saveArtifact(file);
     }
 
